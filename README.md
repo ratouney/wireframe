@@ -13,7 +13,7 @@ Use T to zoom in, and G to zoom out.
 
 Use Y to increased the angle and H to decrease it.
 
-Use X to toggle on and off the grid.
+Use X to toggle on and off the grid. (disabled by default)
 
 Use C to toggle the links between points
 
