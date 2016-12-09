@@ -32,7 +32,7 @@ LDFLAGS	+=
 $(NAME):	$(OBJ)
 	$(CC) -o $(NAME) $(OBJ) $(CFLAGS) -W -Wall -Wextra -Werror -pedantic -ansi
 
-all:	$(NAME)
+all:	$(NAME)	
 
 clean:
 	rm -f $(OBJ)
@@ -40,9 +40,9 @@ clean:
 fclean:	clean
 	rm -f $(NAME)
 
-re:	fclean all
+re:	fclean all clean
 
 run:	fclean all
-	./bswireframe maps/doublefeuille
+	./bswireframe bonus/maps/pylone.map
 
 .PHONY:	all clean fclean re run
